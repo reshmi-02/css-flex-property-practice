@@ -1,0 +1,138 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.service{
+	width:100%;
+	margin:auto;
+	background-color:skyblue;
+}
+.container{
+	background-color:pink;
+	width:90%;
+	margin:auto;
+}
+.service-row{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	background-color:blue;
+	
+}
+.service-col1{
+	border:1px solid black;
+	width:20%;
+	background-color:red;
+	padding:10px;
+}
+.service-col2{
+	border:1px solid black;
+	width:20%;
+	background-color:green;
+	padding:10px;
+}
+.service-col3{
+	border:1px solid black;
+	width:20%;
+	background-color:silver;
+	padding:10px;
+}
+.service-row2{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	background-color:blue;
+}
+.service-row3{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	background-color:blue;
+}
+.service-row4{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	background-color:blue;
+}
+.service-row5{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	background-color:blue;
+}
+.service-row6{
+	width:100%;
+	display:flex;
+	flex-direction:row;	
+	justify-content:space-evenly;
+	background-color:blue;
+
+}
+.service-row7{
+	width:100%;
+	display:flex;	
+	background-color:blue;
+	flex-direction:row;
+
+}
+.service-row8{
+	width:100%;
+	display:flex;	
+	background-color:blue;
+	flex-direction:row;
+	flex-wrap:wrap;
+}
+.service-row9{
+	width:100%;
+	display:flex;	
+	background-color:blue;
+	flex-direction:row;
+	flex-wrap:wrap-reverse;
+}
+.service-row10{
+	width:100%;
+	display:flex;	
+	background-color:blue;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-content:center;
+}
+.content-section{
+	width:100%;
+	background-color:silver;
+}
+.content-row{
+	width:90%;
+	height:200px;
+	background-color:red;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	align-content:center;
+	align-content:space-around;
+	align-item:baseline;
+	margin:auto;
+}
+.content-col1{
+	width:30%;
+	background-color:orange;
+	padding:10px;
+}
+.content-col2{
+	width:30%;
+	background-color:skyblue;
+	padding:10px;
+}
+.content-col3{
+	width:30%;
+	background-color:purple;
+	padding:10px;
+}
+
+	
